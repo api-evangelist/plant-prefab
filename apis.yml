@@ -1,8 +1,25 @@
 aid: plant-prefab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plant-prefab.png
 name: Plant Prefab
-description: Plant Prefab is a company surfaced as a portfolio company of obvious-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Plant Prefab is a Southern California offsite construction technology
+  company that custom-fabricates panelized and modular building components to deliver
+  housing and hospitality projects in roughly half the time of traditional site-built
+  construction. Its panel-based building system spans open-cavity panels to fully
+  finished modules, and its LivingHomes product line and in-house Plant Design Studio
+  offer customized, sustainable designs recognized with LEED Platinum, NAHB Energy
+  Value Housing, and AIA Top Ten Green Projects awards. The company is backed by
+  Obvious Ventures and does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/plant-prefab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- Prefab
+- Modular Homes
+- Offsite Construction
+- Sustainability
+- Housing
+- Architecture
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://plantprefab.com
+- type: Blog
+  url: https://plantprefab.com/blog
+- type: Support
+  url: https://plantprefab.com/contact
+- type: PrivacyPolicy
+  url: https://plantprefab.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
